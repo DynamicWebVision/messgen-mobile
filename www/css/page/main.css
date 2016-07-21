@@ -1,0 +1,806 @@
+
+
+@keyframes buttonClick {
+    from {background-color: #666666;}
+    to {background-color: green;}
+}
+
+.messageAction {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+
+    width: 28px;
+
+    padding: 4px;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+}
+
+@media (min-width: 700px) and (min-height: 600px) {
+
+    .bigButtonsContain {
+        position: relative;
+        height: 50px;
+        width: 100%;
+    }
+
+    .bigButtons {
+        position: absolute;
+        right: 177px;
+
+        width: 450px;
+        top: -38px;
+    }
+
+    .bigButtonsPremium {
+        position: absolute;
+        right: 177px;
+
+        width: 430px;
+        top: 16px;
+    }
+
+    #mainPush {
+        position: relative;
+        width: 100%;
+        height: 75px;
+    }
+
+    .leftButtonContain {
+
+        position: absolute;
+
+        width: 50%;
+
+        left: 0px;
+        top: 0px;
+    }
+
+    .rightButtonContain {
+
+        position: absolute;
+        right: 0px;
+
+        width: 50%;
+    }
+
+
+    #messagesContain {
+        width: 320px;
+        height: 454px;
+
+        overflow-x: hidden;
+        overflow-y: scroll;
+
+        border-color: #b9c8e0;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 4px;
+        background-color: #FFFFFF;
+    }
+
+    #createPhraseLoader {
+        position: absolute;
+        right: 160px;
+        padding-top: 14px;
+    }
+
+    .formLoader {
+        position: absolute;
+        top: 14px;
+        right: 154px;
+    }
+
+    #createMessageLoader {
+        right: 150px;
+    }
+
+    .catButtonClosed {
+        position: relative;
+        display: block;
+        width: 100%;
+        padding-left: 3px;
+
+        padding-top: 3px;
+        padding-bottom: 4px;
+    }
+
+
+
+    .catButtonExpanded {
+        background-color: #F2F2F2;
+        color: #1d365d;
+        padding-left: 3px;
+    }
+
+    .lineSeperator {
+        position: absolute;
+        bottom: 0px;
+        width: 80%;
+        left: 10%;
+        height: 1px;
+        background-color: #666666
+    }
+
+    .minCat {
+        color: #ff6600;
+        cursor: pointer;
+    }
+
+    .minCat:hover {
+        color: #cc5200;
+    }
+
+    .minCat:active {
+        color: #cc5200;
+    }
+
+    .messageItem {
+        position: relative;
+        width: 100%;
+        padding-left: 20px;
+
+        font-size: .9em;
+    }
+    .messageName {
+        position: relative;
+        margin-left: 22px;
+        margin-top: 6px;
+        font-size: 1.1em;
+        height: 30px;
+    }
+
+
+
+    .messageAction {
+        font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 16px;
+
+        width: 28px;
+
+        padding: 4px;
+        border-radius: 2px;
+        border-style: solid;
+        border-width: 1px;
+        text-align: center;
+    }
+
+    .copyAction {
+        background-color: #308014;
+        color: #f5f5f5;
+        border-color: #3A6629;
+
+        position: absolute;
+        top: 0px;
+        right: 85px;
+    }
+
+    .copyAction:hover {
+        background-color: #324F17;
+        color: #ffffff;
+        border-color: #003300;
+        cursor: pointer;
+    }
+
+    .copyAction:active {
+        background-color: #324F17;
+        color: #CCFFCC;
+        border-color: #003300;
+    }
+
+    .newParagraphButton {
+        position: absolute;
+        top: 0px;
+        right: 48px;
+
+        background-color: #ff6600;
+        color: #f5f5f5;
+        border-color: #cc5200;
+    }
+
+    .newParagraphButton:hover {
+        background-color: #cc5200;
+        color: #ffffff;
+        border-color: #993e00;
+        cursor: pointer;
+    }
+
+    .newParagraphButton:active {
+        background-color: #803300;
+        color: #CCFFCC;
+        border-color: #4d1f00;
+    }
+
+    .newLineButton {
+        position: absolute;
+        top: 0px;
+        right: 10px;
+
+        background-color: #FFD700;
+        color: #f5f5f5;
+        border-color: #ccac00;
+    }
+
+    .newLineButton:hover {
+        background-color: #ccac00;
+        color: #ffffff;
+        border-color: #998100;
+        cursor: pointer;
+    }
+
+    .newLineButton:active {
+        background-color: #998100;
+        color: #CCFFCC;
+        border-color: #665600;
+    }
+
+
+    .editButton {
+        position: absolute;
+        top: 0px;
+        right: 125px;
+
+        background-color: #33A1C9;
+        color: #f5f5f5;
+        border-color: #2980a0;
+    }
+
+    .editButton:hover {
+        background-color: #2980a0;
+        color: #ffffff;
+        border-color: #1f6077;
+        cursor: pointer;
+    }
+
+    .editButton:active {
+        background-color: #1f6077;
+        color: #CCFFCC;
+        border-color: #143f4f;
+    }
+
+    .messageBar {
+        position: absolute;
+        bottom: 0px;
+        left: 20%;
+        width: 60%;
+        height: 1px;
+        background-color: #cbd7e7;
+    }
+
+    #messageTextArea {
+        position: absolute;
+        width: 100%;
+
+
+        border-color: #b9c8e0;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 4px;
+    }
+
+    .leftNav {
+        position: fixed;
+        font-family: 'Oswald', serif;
+        top: 90px;
+    }
+
+    #messageTextAreaContain {
+        position: relative;
+        left: 350px;
+        margin-top: 78px;
+        width: 450px;
+        height: 490px;
+    }
+
+    .messageText {
+        background-color: #FFFFFF;
+        position: relative;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        width: 84%;
+        left: 8%;
+        height: 90px;
+        border-color: #ff6600;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 3px;
+        font-size: .9em;
+
+
+    }
+
+
+    .editButton {
+        position: absolute;
+        top: 0px;
+        right: 125px;
+    }
+
+    .newLineButton {
+        position: absolute;
+        top: 0px;
+        right: 10px;
+    }
+
+    .newParagraphButton {
+        position: absolute;
+        top: 0px;
+        right: 48px;
+    }
+
+    .copyAction {
+        position: absolute;
+        top: 0px;
+        right: 85px;
+    }
+
+    .messageSeperator {
+        position: relative;
+        width: 100%;
+        height: 4px;
+    }
+
+    .expandMessage {
+        position: absolute;
+        left: -18px;
+        top: 2px;
+        font-size: 1.1em;
+        color: #286090;
+    }
+
+    .expandMessage:hover {
+        color: #234170;
+        cursor: pointer;
+    }
+
+    .expandMessage:active {
+        color: #0b1423;
+    }
+
+    .No {
+        font-style: italic;
+    }
+
+    .message-text {
+        position: relative;
+        width: 92%;
+        left: 4%;
+        color: #666666;
+        font-size: 15px;
+
+    }
+
+    .variable {
+        background-color: #2f5897;
+        color: #ffffff;
+        border-radius: 3px;
+    }
+
+    #undoClear {
+        position: absolute;
+        right: 0px;
+        top: -58px;
+        font-family: 'Francois One', sans-serif;
+    }
+}
+
+
+
+
+.copyAction {
+    background-color: #308014;
+    color: #f5f5f5;
+    border-color: #3A6629;
+}
+
+.copyAction.zeroclipboard-is-hover {
+    background-color: #324F17;
+    color: #ffffff;
+    border-color: #003300;
+    cursor: pointer;
+}
+
+.copyAction.zeroclipboard-is-active {
+    background-color: #324F17;
+    color: #CCFFCC;
+    border-color: #003300;
+}
+
+.newParagraphButton {
+
+    background-color: #ff6600;
+    color: #f5f5f5;
+    border-color: #cc5200;
+}
+
+.newParagraphButton:hover {
+    background-color: #cc5200;
+    color: #ffffff;
+    border-color: #993e00;
+    cursor: pointer;
+}
+
+.newParagraphButton:active {
+    background-color: #803300;
+    color: #CCFFCC;
+    border-color: #4d1f00;
+}
+
+.newLineButton {
+    background-color: #FFD700;
+    color: #f5f5f5;
+    border-color: #ccac00;
+}
+
+.newLineButton:hover {
+    background-color: #ccac00;
+    color: #ffffff;
+    border-color: #998100;
+    cursor: pointer;
+}
+
+.newLineButton:active {
+    background-color: #998100;
+    color: #CCFFCC;
+    border-color: #665600;
+}
+
+
+.editButton {
+
+    background-color: #33A1C9;
+    color: #f5f5f5;
+    border-color: #2980a0;
+}
+
+.editButton:hover {
+    background-color: #2980a0;
+    color: #ffffff;
+    border-color: #1f6077;
+    cursor: pointer;
+}
+
+.editButton:active {
+    background-color: #1f6077;
+    color: #CCFFCC;
+    border-color: #143f4f;
+}
+
+.customTextButton {
+    margin-top: 0px !important;
+    display: block;
+    background-color: #33A1C9;
+    color: #f5f5f5;
+    border-color: #2980a0;
+}
+
+.customTextButton:hover {
+    background-color: #2980a0;
+    color: #ffffff;
+    border-color: #1f6077;
+    cursor: pointer;
+}
+
+.customTextButton:active {
+    background-color: #1f6077;
+    color: #CCFFCC;
+    border-color: #143f4f;
+}
+
+
+#newCustomVariable {
+    display: inline;
+}
+
+#modifyCustomVariable {
+    display: inline;
+}
+
+.cancelNewVariable {
+    color: #999999;
+    display: inline;
+    position: relative;
+    top: 6px;
+    margin-left: 4px;
+    font-size: 30px;
+}
+
+.cancelNewVariable:hover {
+    color: #696969;
+    cursor: pointer;
+}
+
+.deleteMessageIcon {
+    color: #FF4040;
+    font-size: 30px;
+    position: absolute;
+    left: 9px;
+    top: 64px;
+}
+
+.deleteMessageIcon:hover {
+    color: #CD0000;
+    cursor: pointer;
+}
+
+.catButtonExpanded {
+    background-color: #F2F2F2;
+    color: #1d365d;
+    padding-left: 3px;
+}
+
+.minCat {
+    color: #FF3300;
+    cursor: pointer;
+}
+
+.minCat:hover {
+    color: #cc2900;
+}
+
+.minCat:active {
+    color: #b32400;
+}
+
+.expandMessage:hover {
+    color: #234170;
+    cursor: pointer;
+}
+
+.expandMessage:active {
+    color: #0b1423;
+}
+
+.catButtonClosed:hover {
+    cursor: pointer;
+    background-color: #666666;
+    color: #ffffff;
+}
+
+.messagesLoadingBack {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+
+    background-color: #000000;
+    opacity: .7;
+    z-index: 2;
+}
+
+#messagePreLoaderProcessor {
+    position: absolute;
+    top: 80px;
+    width: 155px;
+}
+
+.preLoad {
+    display: none;
+}
+
+.newMemberMessage {
+    font-size: 20px;
+    color: #2f5897;
+    margin-top: 20px;
+    font-style: italic;
+    position: relative;
+    width: 90%;
+    left: 5%;
+    text-align: center;
+}
+
+.categoryList {
+    font-family: 'Francois One', sans-serif;
+    position: relative;
+    width: 90%;
+    left: 5%;
+
+    height: 155px;
+
+    border-top-width: 2px;
+    border-top-color: #DEDEDE;
+    border-top-style: solid;
+
+    border-bottom-width: 2px;
+    border-bottom-color: #DEDEDE;
+    border-bottom-style: solid;
+
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.categoryLine {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    left: 0px;
+}
+
+.deleteIcon {
+    color: #FF4040;
+    font-size: 22px;
+
+}
+
+.deleteIcon:hover {
+    color: #CD0000;
+    cursor: pointer;
+}
+
+.deleteIcon:active {
+    color:#810000;
+}
+
+.deleteCategory {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.manageCategoryName {
+    position: absolute;
+    top: 2px;
+    left: 22px;
+}
+
+.createCategoryButton {
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 0px;
+
+    left: 5%;
+}
+
+.deletedCategoryMessageContain {
+    position: relative;
+    width: 100%;
+    height: 36px;
+}
+
+.deletedCategoryMessageName {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+}
+
+.deletedCategoryMessageNewCategory {
+    position: absolute;
+    top: 2px;
+    left: 110px;
+    width: 125px;
+    font-size: 14px;
+}
+
+.deletedCategoryMessageListContain {
+    position: relative;
+    width: 100%;
+    height: 210px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-family: 'Francois One', sans-serif;
+}
+
+.deleteCategoryMessageNextStepNote {
+    color: #666666;
+    position: relative;
+    width: 90%;
+    left: 5%;
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+#createCategoryLoader {
+    position: absolute;
+    left: 150px;
+    top: -35px;
+}
+
+#newMessageCover {
+    position: absolute;
+    margin-top: 6px;
+    width: 330px;
+    height: 50px;
+
+    z-index: 5;
+    cursor: pointer;
+}
+
+#messageMaxMessage {
+    position: absolute;
+    top: 65px;
+    left: 40px;
+    width: 250px;
+    background-color: #ffffff;
+    border: 2px solid #286090;
+    border-radius: 3px;
+
+    color: #666666;
+    padding: 4px;
+    font-size: 16px;
+    z-index: 10;
+}
+
+.messageTextAreaPremium {
+    height: 498px;
+}
+
+.messageTextAreaFree {
+    height: 452px;
+}
+
+.creditCardNote {
+    margin-top: 300px;
+}
+
+
+.copyAction {
+    background-color: #308014;
+    color: #f5f5f5;
+    border-color: #3A6629;
+}
+
+
+
+.copyAction.zeroclipboard-is-active {
+    background-color: #324F17;
+    color: #CCFFCC;
+    border-color: #003300;
+}
+
+.bigButtonsPremium {
+    font-family: 'Francois One', sans-serif;
+}
+
+
+
+.clearBodyButton {
+    background-color: #1d365d;
+    color: #FFFFFF;
+    border-color: #0b1423;
+}
+
+.clearBodyButton:hover {
+    background-color: #111f36;
+    color: #f5f5f5;
+}
+
+.clearBodyButton:active {
+    background-color: #0b1423 !important;
+    color: #ffffff;
+}
+
+
+.fullCopyButton {
+    background-color: #1d365d;
+    color: #FFFFFF;
+    border-color: #0b1423;
+}
+
+.fullCopyButton.zeroclipboard-is-hover {
+    background-color: #111f36;
+    color: #f5f5f5;
+    cursor: pointer;
+}
+
+.fullCopyButton.zeroclipboard-is-active {
+    background-color: #0b1423 !important;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
+.hideOtherCategoriesButton {
+    position: absolute;
+    left: 158px;
+    top: -34px;
+}

@@ -1,0 +1,963 @@
+/*Large Sized Desktop*/
+@media (min-width: 1150px){
+    #centeredHead {
+        width: 1150px;
+        margin: auto;
+    }
+
+    #absoluteHead {
+        position: absolute;
+        width: 1150px;
+        height: 70px;
+        border-radius: 2px;
+    }
+
+    #frontHeadBorder {
+        position: absolute;
+        top: -2px;
+        left: -2px;
+
+        width: 1154px;
+        height: 72px;
+
+        z-index: -1;
+
+        border: 2px solid #DD0048;
+        border-radius: 6px;
+    }
+
+    .logInClick {
+        color: #FFFFAA !important;
+    }
+
+    .logInClick:hover {
+        color: #ffff77 !important;
+    }
+
+    .logInClick:active {
+        color: #ffff5e !important;
+    }
+
+    #logoImage {
+        position: absolute;
+        top: 15px;
+        left: 10px;
+    }
+
+    .videoSelectImg {
+        position: absolute;
+        width: 170px;
+        height: 100px;
+    }
+
+    div#blueBackRound {
+        position: absolute;
+        top: 8px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background-color: #1d365d;
+        border-radius: 3px;
+        opacity: .7;
+    }
+
+    #navMenuFront
+    {
+        position: absolute;
+        padding-top: 0px;
+        margin-top: 0px;
+
+        top: 28px;
+        font-size: 20px;
+
+        right: 0px;
+    }
+
+    #fixedHeadSecondary {
+        margin: 0px;
+        padding: 0px;
+        position: fixed;
+        width: 100%;
+        left: 0px;
+        top: 12px;
+        height: 69px;
+        z-index: 999;
+        display: none;
+        box-shadow: 0px 3px 2px #888888;
+    }
+
+    div#blueBackSecondary {
+        position: absolute;
+        top: 8px;
+        left: 0px;
+        width: 100%;
+        height: 72px;
+        background-color: #1d365d;
+
+        box-shadow: 0px 3px 2px #888888;
+    }
+
+    .videoContain {
+        position: relative;
+        width: 100%;
+        height: 155px;
+    }
+
+    .videoContain .videoText {
+        font-family: 'Francois One', sans-serif;
+        position: absolute;
+        top: 107px;
+        font-size: 18px;
+        color: #8C8C8C;
+        z-index: 2;
+        width: 100%;
+        left: 0px;
+    }
+
+    .videoContain:hover .videoText {
+        color: #6d0b0e;
+    }
+
+    .videoContain:hover .videoSelectImg {
+        border: 2px solid #6d0b0e;
+    }
+
+    .videoContain:hover {
+        cursor: pointer;
+    }
+
+    #videoContain {
+        position: absolute;
+        right: 0px;
+        width: 857px;
+        height: 509px;
+        border: 2px solid #b31217;
+        right: 0px;
+    }
+}
+
+
+/*Medium Sized Desktop*/
+@media (min-width: 768px) and (max-width: 1150px) {
+    #centeredHead {
+        width: 980px;
+        margin: auto;
+    }
+
+    #navMenuFront
+    {
+        position: absolute;
+        padding-top: 0px;
+        margin-top: 0px;
+
+        top: 22px;
+        font-size: 18px;
+
+        right: 0px;
+    }
+
+    #absoluteHead {
+        position: absolute;
+        width: 980px;
+        height: 56px;
+        border-radius: 2px;
+    }
+
+    #frontHeadBorder {
+        position: absolute;
+        top: -2px;
+        left: -2px;
+
+        width: 984px;
+        height: 59px;
+
+        z-index: -1;
+
+        border: 2px solid #DD0048;
+        border-radius: 6px;
+    }
+
+    .frontSecondarySection {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding-top: 90px;
+        background: url("../img/bg/grey.png");
+        border-top: 1px solid #f1f1f1;
+    }
+
+
+    #logoImage {
+        position: absolute;
+        top: 7px;
+        left: 3px;
+    }
+
+    div#blueBackRound {
+        position: absolute;
+        top: 8px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background-color: #1d365d;
+        border-radius: 3px;
+        opacity: .7;
+    }
+
+    #fixedHeadSecondary {
+        margin: 0px;
+        padding: 0px;
+        position: fixed;
+        width: 100%;
+        left: 0px;
+        top: 12px;
+        height: 65px;
+        z-index: 999;
+        display: none;
+    }
+
+    div#blueBackSecondary {
+        position: absolute;
+        top: 8px;
+        left: 0px;
+        width: 100%;
+        height: 3px;
+        background-color: #1d365d;
+    }
+
+    .allVideoContain {
+        position: relative;
+        margin: auto;
+        width: 360px;
+        height: 85px;
+    }
+
+    .videoContain .videoText {
+        font-family: 'Francois One', sans-serif;
+        position: absolute;
+        top: 50px;
+        font-size: 15px;
+        color: #8C8C8C;
+        z-index: 2;
+        left: 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .videoContain:hover .videoText {
+        color: #6d0b0e;
+    }
+
+    .videoContain:hover .videoSelectImg {
+        border: 2px solid #6d0b0e;
+    }
+
+    .videoContain:hover {
+        cursor: pointer;
+    }
+
+    #videoContain {
+        position: relative;
+        right: 0px;
+        width: 857px;
+        margin: auto;
+        height: 509px;
+        border: 2px solid #b31217;
+        right: 0px;
+    }
+
+    .videoSelectImg {
+        width: 80px;
+        height: 50px;
+        margin: auto;
+    }
+
+    .videoImgContain {
+        position: relative;
+        width: 80;
+        margin: auto;
+        height: 50px;
+    }
+
+    .videoContain {
+      height: 90px;
+    }
+
+    .imgInline {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
+@media (min-width: 768px) {
+
+    #login-loader {
+        position: absolute;
+        left: 67px;
+        top: 15px;
+
+    }
+
+    #backVideo {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        background: url(polina.jpg) no-repeat;
+        background-size: cover;
+    }
+    .container h1 {
+        color: white;
+    }
+
+    #plansContain {
+        position: relative;
+        width: 1000;
+    }
+    #plansInner {
+        position: relative;
+        left: 172px;
+    }
+
+    .loginContain {
+        position: relative;
+        width: 280px;
+        height: 290px;
+        padding: 10px;
+    }
+
+    .loginContainInvalidLogin {
+        position: relative;
+        width: 280px;
+        height: 320px;
+        padding: 10px;
+    }
+
+    .loginBack {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+
+        background-color: #1d365d;
+        opacity: .7;
+        z-index: -1;
+    }
+
+    .headFront {
+        position: relative;
+        left: 0px;
+        width: 100%;
+        font-family: 'Francois One', sans-serif;
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 18px;
+        color: #ffffff;
+    }
+
+    .frontLabel {
+        color: #ffffcc;
+    }
+
+    .loginOuter {
+        position: absolute;
+        top: -2px;
+        left: -2px;
+
+        z-index: -1;
+
+        border: 2px solid #DD0048;
+        border-radius: 6px;
+        width: 284px;
+        height: 294px;
+    }
+
+    .loginOuterInvalidLogin {
+        position: absolute;
+        top: -2px;
+        left: -2px;
+
+        z-index: -1;
+
+        border: 2px solid #DD0048;
+        border-radius: 6px;
+        width: 284px;
+        height: 324px;
+    }
+
+
+    #navMenuFront li
+    {
+        font-family: 'Francois One', sans-serif;
+
+        display: inline;
+        list-style-type: none;
+        padding-right: 20px;
+        color: #f5f5f5;
+    }
+
+    #navMenuFront li:hover
+    {
+        text-decoration: underline;
+        color: #ffffff;
+        cursor: pointer;
+    }
+
+    #navMenuFront a
+    {
+        text-decoration: none;
+        color: #f5f5f5;
+    }
+
+    #navMenu li
+    {
+        font-family: 'Francois One', sans-serif;
+
+        display: inline;
+        list-style-type: none;
+        padding-right: 20px;
+        color: #f5f5f5;
+    }
+
+    #navMenu li:hover
+    {
+        text-decoration: underline;
+        color: #ffffff;
+        cursor: pointer;
+    }
+
+    #navMenuFront a:hover
+    {
+        text-decoration: underline;
+        color: #ffffff;
+    }
+
+    #joinWhite {
+        position: relative;
+        width: 500px;
+        margin-top: 25px;
+    }
+
+
+
+
+    .boxShadowBottom {
+        box-shadow: 0px 3px 2px #888888;
+    }
+
+    #topgreySecondary {
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 4px;
+        left: 0px;
+        background-color: #000000;
+        opacity: .4;
+    }
+
+    div#orangeBarSecondary {
+        position: fixed;
+        top: 4px;
+        left: 0px;
+        height: 4px;
+        width: 50%;
+        background-color: #FF3300;
+    }
+
+    div#orangeBar2Secondary {
+        position: fixed;
+        top: 4px;
+        right: 0px;
+        height: 4px;
+        width: 50%;
+
+        background-color: #FF3300;
+    }
+
+
+
+    #logoSecondary {
+        font-family: 'Fredericka the Great', cursive;
+        position: absolute;
+        top: 6px;
+        color: #ffffff;
+        font-size: 12px;
+
+        text-shadow: -1px -1px 0 , 1px -1px 0 #33ccff, -1px 1px 0 #33ccff, 1px 1px 0 #33ccff;
+    }
+
+    .logo:hover {
+        cursor: pointer;
+
+    }
+
+    #reg-loader {
+        position: absolute;
+        left: 60px;
+        top: 15px;
+    }
+
+    .accountTypeContain {
+        position: relative;
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        height: 40px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #freeAccountSelect {
+        position: absolute;
+        left: 0px;
+    }
+
+    #premiumAccountSelect {
+        position: absolute;
+        left: 180px;
+    }
+
+    .unselectedAccount {
+        border: 1px solid #1d365d;
+
+        padding: 4px;
+        width: 150px;
+        text-align: center;
+
+        font-size: 20px;
+        color: #1d365d;
+        border-radius: 3px;
+    }
+
+    .unselectedAccount:hover {
+        cursor: pointer;
+        color: #1d365d;
+        border-color: #1d365d;
+        background-color: #F0F0F0;
+    }
+
+    .selectedAccount {
+        background-color: #1d365d;
+        border: 1px solid #1d365d;
+
+        padding: 4px;
+        width: 150px;
+        text-align: center;
+
+        font-size: 20px;
+        color: #ffffff;
+        border-radius: 3px;
+    }
+
+
+
+    .pricing {
+        text-align: center;
+        border: 1px solid #f0f0f0;
+        color: #777;
+        font-size: 14px;
+        padding-left: 0;
+        margin-bottom: 30px;
+
+        background-color: #ffffff;
+    }
+    .pricing img {
+        display: block;
+        margin: auto;
+        width: 32px;
+    }
+    .pricing li:first-child,
+    .pricing li:last-child {
+        padding: 20px 13px;
+    }
+    .pricing li {
+        list-style: none;
+        padding: 13px;
+        min-height: 49px;
+    }
+    .pricing li + li {
+        border-top: 1px solid #f0f0f0;
+    }
+    .pricing big {
+        font-size: 32px;
+    }
+    .pricing h3 {
+        margin-bottom: 0;
+        font-size: 36px;
+    }
+    .pricing span {
+        font-size: 12px;
+        color: #999;
+        font-weight: normal;
+    }
+    .pricing li:nth-last-child(2) {
+        padding: 30px 13px;
+    }
+    .pricing button {
+        width: auto;
+        margin: auto;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 50px;
+        color: #fff;
+        padding: 9px 24px;
+        background: #aaa;
+        opacity: 1;
+        transition: opacity .2s ease;
+        border: none;
+        outline: none;
+    }
+    .pricing button:hover {
+        opacity: .9;
+    }
+    .pricing button:active {
+        box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.1);
+    }
+    /* pricing color */
+    .p-green big,
+    .p-green h3 {
+        color: #4c7737;
+    }
+    .p-green button {
+        background: #4c7737;
+    }
+    .p-yel big,
+    .p-yel h3 {
+        color: #ffbb42;
+    }
+    .p-yel button {
+        background: #ffbb42;
+    }
+    .p-red big,
+    .p-red h3 {
+        color: #e13c4c;
+    }
+    .p-red button {
+        background: #e13c4c;
+    }
+    .p-blue big,
+    .p-blue h4 {
+        color: #3f4bb8;
+    }
+    .p-blue button {
+        background: #3f4bb8;
+    }
+
+    .bigPricing {
+        min-height: 120px !important;
+    }
+
+    #planContain {
+        position: relative;
+        width: 600px;
+    }
+
+
+    #cardNunber {
+        position: absolute;
+        left: 150px;
+        top: 35px;
+    }
+
+    #paymentInfoFull {
+        height: 500px;
+    }
+
+    #cardType {
+        position: absolute;
+        left: 315px;
+        top: 35px;
+    }
+
+
+    .creditLeftInput
+    {
+        position: relative;
+        left: 50px;
+        margin-bottom: 7px;
+    }
+
+    .ccLabel {
+        position: relative;
+        left: 50px;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .secondCreditInput {
+        position: relative;
+        display: inline;
+        margin-left: 12px;
+    }
+
+    .ccSelect {
+        position: relative;
+        display: inline;
+        margin-left: 12px;
+        top: 1px;
+    }
+
+    .name2 {
+        position: relative;
+        display: inline;
+        margin-left: 8px;
+    }
+
+    .disInline {
+        display: inline;
+    }
+
+    .selectPlaceholder {
+        font-style: italic;
+        font-color: #666666;
+    }
+
+    #planChangeLoader {
+        position: absolute;
+        left: 340px;
+        margin-top: 2px;
+    }
+
+    #saveCCLoader {
+        position: absolute;
+        left: 142px;
+        margin-top: 2px;
+    }
+
+    .savedCardMessage {
+        font-size: 20px;
+        color: #004F00;
+    }
+
+    .invalidLoginText {
+        position: relative;
+        background-color: #ffffff;
+        color: #FF0000;
+
+        margin-top: 12px;
+        margin-bottom: -12px;
+
+        left: 27px;
+
+        border: #FF0000 solid 1px;
+        border-radius: 3px;
+        font-size: 14px;
+        text-align-last: center;
+
+        width: 205px;
+        padding: 2px;
+    }
+
+    #DemoSection {
+        margin-bottom: 35px;
+        padding-bottom: 40px;
+        height: 855px;
+    }
+
+    .videosSelectContain {
+        position: relative;
+        width: 434px;
+
+        height: 35px;
+        margin: auto;
+    }
+
+    .videoButton {
+        background-color: #e5e5e5;
+        color: #000000;
+        font-size: 20px;
+        width: 150px;
+        height: 150px;
+        text-align: center;
+        padding: 4px;
+        border: 2px solid #b31217;
+        border-radius: 2px;
+    }
+
+    .videoButton:hover {
+        border: 2px solid #e1171d;
+        cursor: pointer;
+    }
+    .videoButton:active {
+        border: 2px solid #6d0b0e;
+        cursor: pointer;
+    }
+
+    #fullDemoButton {
+        position: absolute;
+        left: 0px;
+    }
+
+    #shortDemoButton {
+        position: absolute;
+        right: 0px;
+    }
+
+    #videoList {
+        position: relative;
+        width: 140px;
+    }
+
+    #videosCenter {
+        position: relative;
+        width: 980px;
+        margin: auto;
+    }
+
+    #frontLoginOuterFull {
+        position: relative;
+        width: 100%;
+        left: 0px;
+        margin-top: 25px;
+    }
+
+    .frontHeader {
+        text-shadow: -1px -1px 0 , 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF;
+
+        font-family: 'Oswald', sans-serif;
+        position: relative;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 25px;
+        margin-top: 70px;
+        font-size: 46px;
+    }
+
+
+    #frontLoginOuterAuto {
+        width: 260px;
+        margin: auto;
+    }
+
+    .videoButton .whiteFront {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background-color: #FFFFFF;
+        z-index: 1;
+        opacity: .2;
+    }
+
+    .videoButton:hover .whiteFront {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background-color: #FFFFFF;
+        z-index: 1;
+        opacity: .5;
+    }
+
+
+
+    .videoButton:hover .videoText {
+        color: #000000;
+    }
+
+    #frontTopPush
+    {
+        position: relative;
+        width: 100%;
+        height: 75px;
+    }
+
+#WelcomeSection {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.frontSecondarySection {
+    position: relative;
+    width: 100%;
+    left: 0px;
+    height: 100%;
+    padding-top: 90px;
+
+    border-top: 1px solid #f1f1f1;
+}
+
+#JoinSection {
+    background: url("../img/bg/grey.png");
+
+}
+
+#AboutSection {
+    background: url("../img/bg/grey.png");
+
+}
+
+#VideosSection {
+    background: url("../img/bg/grey.png");
+}
+
+#DemoSection {
+    background: url("../img/bg/grey.png");
+}
+
+
+.darkGrey {
+    color: #666666 !important;
+}
+
+.black {
+    color: #000000 !important;
+}
+
+#frontLoginOuterFull {
+    display: none;
+}
+
+.getStartedButton {
+    position: absolute;
+    bottom: -70;
+    left: 50%;
+    width: 200px;
+    text-align: center;
+    -webkit-transform: translate3d(-50%,0,0);
+    transform: translate3d(-50%,0,0);
+
+    background-color: #1d365d;
+
+    border: 1px solid #111f36;
+
+    color: #f5f5f5;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+
+    border-radius: 1px;
+    font-size: 20px;
+
+    box-shadow: -1px -1px 0 , 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF;
+
+
+}
+
+.getStartedButton:hover {
+    cursor: pointer;
+
+    background-color: #111f36;
+    color: #ffffff;
+    border: 1px solid #0b1423;
+}
+
+    .getStartedButton:active {
+        color: #666666;
+    }
+
+}
+
+

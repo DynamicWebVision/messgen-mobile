@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Condensed'), local('Roboto Condensed'), url("RobotoCondensed-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('Open Sans'), url("OpenSans-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Raleway'), local('Raleway'), url("Raleway-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Francois One'), local('Francois One'), url("FrancoisOne.ttf") format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Oswald'), local('Oswald'), url("Oswald-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Fredericka the Great';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Fredericka the Great'), local('Fredericka the Great'), url("FrederickatheGreat-Regular.ttf") format('truetype');
+}

@@ -1,0 +1,153 @@
+    #videoContain {
+        position: relative;
+        margin: auto;
+        width: 855px;
+        height: 507px;
+        border: 2px solid #b31217;
+        right: 0px;
+    }
+
+
+    .videoButton {
+        background-color: #e5e5e5;
+        position: relative;
+        margin: auto;
+
+        color: #000000;
+        font-size: 20px;
+        width: 150px;
+        height: 150px;
+        text-align: center;
+        padding: 4px;
+        border: 2px solid #b31217;
+        border-radius: 2px;
+    }
+
+    .videoButton:hover {
+        border: 2px solid #e1171d;
+        cursor: pointer;
+    }
+    .videoButton:active {
+        border: 2px solid #6d0b0e;
+        cursor: pointer;
+    }
+
+
+    .mobileBump {
+        position: relative;
+        width: 100%;
+        left: 0px;
+        margin: 0px;
+        height: 35px;
+    }
+
+    #videoList {
+        position: relative;
+        width: 140px;
+    }
+
+    #videosCenter {
+        position: relative;
+        width: 100%;
+        left: 0px;
+    }
+
+    .videoSelectImg {
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
+    .videoButton .whiteFront {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background-color: #FFFFFF;
+        z-index: 1;
+        opacity: .2;
+    }
+
+    .videoButton:hover .whiteFront {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background-color: #FFFFFF;
+        z-index: 1;
+        opacity: .5;
+    }
+
+    .videoButton .videoText {
+        position: absolute;
+        bottom: 22px;
+        font-size: 18px;
+        color: #FFFFFF;
+        z-index: 2;
+        width: 100%;
+        left: 0px;
+        text-align: center;
+    }
+
+    .videoButton:hover .videoText {
+        color: #000000;
+    }
+
+    #AboutSection {
+        margin-top: 60px;
+    }
+
+    #frontTopPush
+    {
+        position: relative;
+        width: 100%;
+        height: 35px;
+    }
+
+    .secondaryHeaderFront {
+        width: 90%;
+        left: 5%;
+        position: relative;
+        text-align: center;
+    }
+
+    .mobileNavHide {
+        display: none;
+    }
+
+    .frontSecondarySection {
+        position: relative;
+        margin-top: 45px;
+    }
+
+    .frontLabel {
+        position: relative;
+        left: 4%;
+        font-size: 16px;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .input-med {
+        position: relative;
+        left: 4%;
+        width: 92%;
+        border-radius: 1px;
+        margin-bottom: 16px;
+    }
+
+    #login-loader-mobile {
+        display: none;
+        z-index: 20;
+    }
+
+    .loaderPositionSetter {
+        position: absolute;
+        top: -40px;
+        left: 0px;
+        width: 100%;
+    }

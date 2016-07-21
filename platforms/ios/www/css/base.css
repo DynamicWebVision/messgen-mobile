@@ -1,0 +1,825 @@
+
+/*Large Sized Desktop*/
+@media (min-width: 1150px){
+    #centeredHead {
+        width: 1150px;
+        margin: auto;
+    }
+
+    #absoluteHead {
+        position: absolute;
+        width: 1150px;
+        height: 72px;
+        border-radius: 2px;
+    }
+
+    #frontHeadBorder {
+        position: absolute;
+        top: -2px;
+        left: -2px;
+
+        width: 1154px;
+        height: 72px;
+
+        z-index: -1;
+
+        border: 2px solid #DD0048;
+        border-radius: 6px;
+    }
+
+    #navMenu
+    {
+        position: absolute;
+        padding-top: 0px;
+        margin-top: 0px;
+
+        top: 18px;
+        font-size: 20px;
+
+        right: 0px;
+    }
+
+    .centeredContain {
+        position: relative;
+        width: 1150px;
+        margin: auto;
+    }
+
+    .oneHundredAbsoluteLarge {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+/*Medium Sized Desktop*/
+@media (min-width: 768px) and (max-width: 1150px) {
+    #centeredHead {
+        width: 980px;
+        margin: auto;
+    }
+
+    .centeredContain {
+        position: relative;
+        width: 1150px;
+        margin: auto;
+    }
+
+    #absoluteHead {
+        position: absolute;
+        width: 980px;
+        height: 53px;
+        border-radius: 2px;
+    }
+
+    #frontHeadBorder {
+        position: absolute;
+        top: -2px;
+        left: -2px;
+
+        width: 984px;
+        height: 59px;
+
+        z-index: -1;
+
+        border: 2px solid #DD0048;
+        border-radius: 6px;
+    }
+
+    #navMenu
+    {
+        position: absolute;
+        padding-top: 0px;
+        margin-top: 0px;
+
+        top: 15px;
+        font-size: 18px;
+
+        right: 0px;
+    }
+}
+
+@media (min-width: 768px) {
+
+@keyframes slideDown {
+    from {height: 36px;}
+    to {height: 200px;}
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: url("../img/bg/grey.png");
+}
+
+#fixedHead {
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    height: 65px;
+    box-shadow: 0px 3px 2px #888888;
+    z-index: 999;
+}
+
+.centerRelativeContain {
+    position: relative;
+    width: 800px;
+    margin: auto;
+}
+
+#fixedHeadFront {
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    height: 65px;
+    z-index: 999;
+}
+
+
+div#blueBack {
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    width: 100%;
+    height: 57px;
+    background-color: #1d365d;
+}
+
+div#frontBack {
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    width: 100%;
+    height: 57px;
+
+}
+
+#topgrey {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 4px;
+    left: 0px;
+    background-color: #000000;
+    opacity: .4;
+}
+
+div#orangeBar {
+    position: fixed;
+    top: 4px;
+    left: 0px;
+    height: 4px;
+    width: 50%;
+    background-color: #FF3300;
+}
+
+div#orangeBar2 {
+    position: fixed;
+    top: 4px;
+    right: 0px;
+    height: 4px;
+    width: 50%;
+
+    background-color: #FF3300;
+}
+
+#logo {
+    font-family: 'Fredericka the Great', cursive;
+    position: absolute;
+    top: 6px;
+    color: #ffffff;
+    font-size: 35px;
+
+    text-shadow: -1px -1px 0 , 1px -1px 0 #33ccff, -1px 1px 0 #33ccff, 1px 1px 0 #33ccff;
+}
+
+    #logoApp {
+        font-family: 'Fredericka the Great', cursive;
+        position: absolute;
+        top: 6px;
+        color: #ffffff;
+        font-size: 33px;
+
+        text-shadow: -1px -1px 0 , 1px -1px 0 #33ccff, -1px 1px 0 #33ccff, 1px 1px 0 #33ccff;
+    }
+
+#mainLogo {
+    position: absolute;
+    top: 1px;
+    left: 3px;
+}
+
+#logoFront {
+    font-family: 'Fredericka the Great', cursive;
+    position: absolute;
+    top: 11px;
+    left: 12px;
+    color: #ffffff;
+    font-size: 35px;
+
+    text-shadow: -1px -1px 0 , 1px -1px 0 #33ccff, -1px 1px 0 #33ccff, 1px 1px 0 #33ccff;
+}
+
+
+.white {
+    color: #ffffff;
+}
+
+.lightBlue {
+    color: #b9c8e0;
+}
+
+#mainContent {
+    position: relative;
+    width: 980px;
+    margin: auto;
+}
+
+.contentPush {
+    position: relative;
+    width: 100%;
+    height: 25px;
+}
+
+.process {
+    display: none;
+}
+
+#processBlanket {
+    z-index: 100000;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.successMessage
+{
+    position: absolute;
+
+    width: 250px;
+    height: 210px;
+
+    background-color: #ffffff;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: #666666;
+    display: none;
+    /*display: none;*/
+}
+
+.successHead
+{
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    /*color: #000000;*/
+    color: #666666;
+}
+
+.bigGreenSuccess
+{
+    /*color: #C0D9AF;*/
+    color: #86C67C;
+    font-size: 85px;
+    position: absolute;
+
+    top: 90px;
+    left: 0px;
+
+    width: 100%;
+    text-align: center;
+}
+
+#autoAjaxSuccess
+{
+    margin: auto;
+    width: 250px;
+}
+
+#fixedAjaxSuccess
+{
+    position: fixed;
+    width: 100%;
+    top: 10%;
+    /*display: none;*/
+    z-index: 1000;
+    display: none;
+}
+
+.centeredError {
+    left: 10%;
+    width: 80%;
+}
+
+.orange {
+    color: #003300;
+}
+
+.block-margin {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+.centerLoader {
+    position: absolute;
+    top: 65px;
+    left: 400px;
+    display: none;
+}
+
+.navMenu {
+    position: absolute;
+    right: 0px;
+    top: 19px;
+    font-family: 'Oswald', serif;
+    list-style-type: none;
+}
+
+.navMenu li {
+    display: inline;
+    padding-right: 10px;
+}
+
+.inline {
+    display: inline;
+}
+
+.navMenu li a {
+    color: #EBEBEB;
+}
+
+.navMenu li a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.form-medium {
+    width: 150px;
+}
+
+.mb {
+    margin-bottom: 12px;
+}
+
+.mr {
+    margin-right: 20px;
+}
+
+.mt {
+    margin-top: 12px;
+}
+
+.modal-med-text {
+    width: 90%;
+    left: 5%;
+    height: 120px !important;
+    font-size: .9em;
+}
+
+.twoButton {
+    width: 150px;
+    display: inline;
+}
+
+.oneTwoEm {
+    font-size: 1.2em;
+}
+
+.oneFourEm {
+    font-size: 1.4em;
+}
+
+.uL {
+    text-decoration: underline;
+}
+
+.red {
+    color:#CC1100;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.inline {
+    display: inline !important;
+}
+
+#createContactLoader {
+    position: absolute;
+    left: 125px;
+    top: 0px;
+    display: none;
+}
+
+.whiteFormContain {
+    background-color: #ffffff;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+}
+
+.white-contain {
+    position: relative;
+    background-color: #ffffff;
+    border: 1px #E8E8E8 solid;
+    border-radius: 3px;
+    padding: 15px;
+    margin-top: 20px !important;
+}
+
+.translucentContain {
+    position: relative;
+
+    padding: 15px;
+}
+
+.input-med {
+    width: 175px;
+}
+
+.input-inline {
+    display: inline;
+    margin-left: 10px;
+}
+
+#main-content {
+    position: relative;
+    width: 980px;
+    margin: auto;
+}
+
+.label-input {
+    position: relative;
+    width: 100%;
+    left: 0px;
+    margin-top: 12px;
+}
+
+.btn {
+    margin-top: 15px;
+}
+
+.head {
+    position: relative;
+    left: 0px;
+    width: 100%;
+    font-family: 'Francois One', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 18px;
+    color: #666666;
+}
+
+.submit-contain {
+    position: relative;
+    width: 100%;
+    left: 0px;
+    height: 40px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+#processing-blanket {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1000000;
+}
+
+.processing {
+    display: none;
+}
+
+.alert-reg-position {
+    position: relative;
+    left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+
+.relative {
+    position: relative;
+}
+
+.noShow {
+    display: none;
+}
+
+
+
+#navMenu li
+{
+    font-family: 'Francois One', sans-serif;
+
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+#navMenu a
+{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+#navMenu a:hover
+{
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.centerHead {
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.secondaryHeader {
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    width: 100%;
+    left: 0px;
+    text-align: center;
+    color: #666666;
+}
+
+.secondaryHeaderFront {
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    width: 100%;
+    font-size: 26px;
+    left: 0px;
+    text-align: center;
+    text-shadow: -1px -1px 0 , 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF;
+
+    color: #8A0707;
+
+    /*-webkit-text-stroke-width: 1px;*/
+    /*-webkit-text-stroke-color: #EEC900;*/
+
+}
+
+.form-large {
+    width: 300px;
+}
+
+.form-small
+{
+    width: 100px; !important;
+}
+
+.secondaryGreyNote {
+     position: relative;
+     width: 100%;
+     text-align: center;
+
+     font-size: 10px;
+     font-style: italic;
+
+     color: #848484;
+ }
+
+.secondaryGreyNoteLarge {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-style: italic;
+
+    color: #848484;
+}
+
+.bigFormNote {
+    position: relative;
+    left: 5%;
+    width: 90%;
+
+    font-size: 20px;
+    color: #666666;
+    margin-bottom: 65px;
+    text-align: center;
+}
+
+.centerOkButton {
+    font-size: 26px;
+    background-color: #00688B;
+    margin-top: 10px;
+    border: 2px solid #004258;
+    border-radius: 3px;
+
+    color: #f5f5f5;
+    padding: 5px;
+    position: relative;
+    width: 80px;
+}
+
+.relative {
+    position: relative;
+}
+
+.centerOkButton a:hover {
+    background-color: #004258;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.centerOkButton a:active {
+    background-color: #002f3f;
+    border-color: #002f3f;
+    color: #F0F0F0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.oneButton {
+    width: 320px;
+    display: inline;
+}
+
+.messageAction .toolTipNote {
+    position: absolute;
+    top: -2px;
+    right: 30px;
+
+    padding: 2px;
+    background-color: #FFFFFF;
+    border: 2px solid #666666;
+    border-radius: 2px;
+
+    color: #00688B;
+    font-size: 12px;
+    opacity: 0;
+
+    transition: opacity .4s ease-in-out;
+    -moz-transition: opacity .4s ease-in-out;
+    -webkit-transition: opacity .4s ease-in-out;
+    z-index: -1;
+
+}
+
+.messageAction:hover .toolTipNote {
+    z-index: 20;
+    opacity: 1;
+    transition-property:opacity;
+    transition-delay:2s;
+}
+
+#footer {position: relative;
+    margin-top: -40px; /* negative value of footer height */
+    height: 40px;
+    clear:both;
+
+    background-color: #1d365d;
+}
+
+DIV#FooterIndex
+{
+    z-index: 100;
+}
+
+
+DIV#FooterContain
+{
+
+    height: 45px;
+    width: 100%;
+    background: #000000;
+    clear: both;
+
+}
+
+DIV#FooterCenterMargin
+{
+    margin: auto;
+    width: 980px;
+}
+
+DIV#FooterCenterAbsolute
+{
+    position: absolute;
+    width: 980px;
+    height: 40px;
+}
+
+DIV#CopyRight
+{
+    position: absolute;
+    top: 12px;
+    left: 0px;
+
+    color: #E8E8E8;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: .75em;
+}
+
+#navlist {
+    position: absolute;
+    right: 0px;
+    top: 14px;
+}
+
+#CopyRight a {
+    color: #ffffff;
+}
+
+#navlist li {
+    color: #ffffff;
+    font-size: 10px;
+    display: inline;
+    padding-left: 5px;
+}
+
+#navlist li a {
+    color: #ffffff;
+}
+
+
+
+.mtSixty {
+    margin-top: 60px;
+}
+
+.desktopHide {
+    display: none !important;
+}
+
+.sectionCenter {
+    position: relative;
+    width: 980px;
+    margin: auto;
+}
+
+
+
+}
+
+.secondTierIndex {
+    z-index: 20;
+}
+
+#navMenuApp
+{
+    position: absolute;
+    padding-top: 0px;
+    margin-top: 0px;
+
+    top: 17px;
+    font-size: 18px;
+
+    right: 0px;
+}
+
+#navMenuApp li
+{
+    font-family: 'Francois One', sans-serif;
+
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+#navMenuApp a
+{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+#navMenuApp a:hover
+{
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+#mainPush {
+    position: relative;
+    width: 100%;
+    height: 75px;
+}
